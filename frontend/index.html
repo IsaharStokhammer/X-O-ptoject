@@ -7,27 +7,43 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="loginContainer">
         <h1>X-O game</h1>
+        <input type="text" id="username" placeholder="Enter your name">
+        <button id="loginBtn">Login</button>
+
+    </div>
+
+    <div class="container" id="choosePlayerContainer">
+        <h1>X-O game</h1>
+
+        <p>Choose your player</p>
+        <button id="playerXBtn">X</button>
+        <button id="playerOBtn">O</button>
+    </div>
+
+    <div class="container" id="gameContainer">
+        <h1>X-O game</h1>
+
         <div id="board">
             <div class="row">
-                <div class="cell" id ="r1c1">1</div>
-                <div class="cell" id ="r1c2">1</div>
-                <div class="cell" id ="r1c3">1</div>
+                <div class="cell" id ="r1c1"></div>
+                <div class="cell" id ="r1c2"></div>
+                <div class="cell" id ="r1c3"></div>
             </div>
             <div class="row">
-                <div class="cell" id ="r2c1">1</div>
-                <div class="cell" id ="r2c2">1</div>
-                <div class="cell" id ="r2c3">1</div>
+                <div class="cell" id ="r2c1"></div>
+                <div class="cell" id ="r2c2"></div>
+                <div class="cell" id ="r2c3"></div>
             </div>
             <div class="row">
-                <div class="cell" id ="r3c1">1</div>
-                <div class="cell" id ="r3c2">1</div>
-                <div class="cell" id ="r3c3">1</div>
+                <div class="cell" id ="r3c1"></div>
+                <div class="cell" id ="r3c2"></div>
+                <div class="cell" id ="r3c3"></div>
             </div>
         </div>
         <button id="restart">Restart</button>
     </div>
-    
+    <script src="main.js"></script>
 </body>
 </html>
