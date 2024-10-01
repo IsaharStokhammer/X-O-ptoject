@@ -9,7 +9,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #efe0f6;
 }
 
 .container {
@@ -29,13 +29,17 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    border: 2px solid #000000;
+    border: 2px solid #2a0224;
     font-size: 24px;
     font-weight: bold;
     width: 100px;
     height: 100px;
     cursor: pointer;
     user-select: none;
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
 }
 
 #restart {
